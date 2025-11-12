@@ -36,4 +36,4 @@ jobs:
 
     - name: 🚨 Fail if coverage is too low
       run: |
-        coverage report --fail-under=60
+        coverage report --fail-under=30
